@@ -38,3 +38,12 @@ https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del
 17. git chekout -b (rama) #Crear una rama de trabajo paralela y ubicarse en ella.
 	a. git chekout (otra rama) #Cambio de rama
 18. git branch -d (rama) #Eliminar una rama
+
+#Cabiar el commit
+19. git log
+20. git commit --amend -m "Nuevo mensaje del commit para el segundo repositorio"
+21. git rebase -i HEAD~n
+Donde n es el número de commits hacia atrás desde el HEAD donde se encuentra el commit que deseas cambiar. Por ejemplo, si deseas modificar el segundo commit más reciente, usarías HEAD~2.
+En el editor que se abre, cambia pick a reword en el commit cuyo mensaje deseas modificar. Luego guarda y cierra el editor.
+Git te pedirá que edites el mensaje del commit. Cambia el mensaje y guarda el archivo.
+22. git push origin master --force
