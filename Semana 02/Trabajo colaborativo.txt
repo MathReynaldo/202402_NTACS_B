@@ -1,0 +1,32 @@
+::::::::::::::::::::::::::::::::
+:: Trabajo colaborativo en git::
+::::::::::::::::::::::::::::::::
+
+#Clonar repositorio
+
+1. git clone (link del repositorio)
+2. cd (nombre del repositorio)
+3. git config --global user.name "Usuario"
+4. git config --global user.email "correo"
+3. git chekout -b (usuario) #añada una rama que será su carpeta
+	a. git branch #Verificar que está en su rama 
+
+#Añadir archivos
+4. touch archivo.txt
+5. git add archivo.txt
+6. git commit -m "Añadido archivo.txt con contenido nuevo"
+7. git push origin (usuario)
+
+Crear un PR (Pull Request) desde GitHub.
+
+#Actualizar el repositorio (Desde su computadora)
+8. git fetch origin
+9. git checkout (usuario)
+10. git pull origin (usuario)
+
+git pull hace dos cosas: primero obtiene los cambios del repositorio remoto y luego los integra en la rama local.
+
+
+
+
+

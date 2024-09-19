@@ -1,0 +1,40 @@
+::::::::::::::::::::::::::::::::
+::Pasos para el trabajo en git::
+::::::::::::::::::::::::::::::::
+
+https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Acerca-del-Control-de-Versiones
+
+1. git init
+
+#Acceso de credenciales y conexión a repositorio
+2. git config --global user.name "(usuario)"
+3. git config --global user.email "(correo)"
+4. git remote add origin (link del repositorio)
+	a. git remote -v #Observar los repositorios vinculados
+	b. git remote set-url origin (link del repositorio) #Cambiar de repositorio
+	c. git remote -v #Verificar los cambios
+
+#Añadir archivos de la carpeta
+5. git status #Verificar archivos
+6. git add (archivo) #Añadir archivo
+7. git add . #añadir todos los archivos
+	a. git reset (archivo) #Remueve el archivo que no se considera
+	b. git reset --soft HEAD^ #En caso haya hecho commit con un archivo que no quiera
+	c. git status #Verifique los cambios
+8. git commit -m "Archivos añadidos"
+9. git push -u origin master
+
+#Crear carpetas desde bash
+10. mkdir (carpeta) #Crear una carpeta
+11. cd (carpeta)/ #Ingresar a la carpeta
+	a. cd .. #Retornar a la carpeta anterior
+12. touch archivo.txt #Crear un archivo dentro de la carpeta
+13. cd .. # Retorna a la carpeta anterior
+14. git add (carpeta)
+15. git commit -m "carpeta añadida"
+16. git push
+
+#Crear ramas (branch)
+17. git chekout -b (rama) #Crear una rama de trabajo paralela y ubicarse en ella.
+	a. git chekout (otra rama) #Cambio de rama
+18. git branch -d (rama) #Eliminar una rama
