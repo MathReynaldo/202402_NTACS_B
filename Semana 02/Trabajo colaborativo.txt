@@ -8,7 +8,7 @@
 2. cd (nombre del repositorio)
 3. git config --global user.name "Usuario"
 4. git config --global user.email "correo"
-3. git chekout -b (usuario) #añada una rama que será su carpeta
+3. git checkout -b (usuario) #añada una rama que será su carpeta
 	a. git branch #Verificar que está en su rama 
 
 #Añadir archivos
