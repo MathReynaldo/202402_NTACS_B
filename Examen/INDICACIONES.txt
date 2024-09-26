@@ -1,0 +1,27 @@
+Indicaciones del examen parcial 1
+
+1. El archivo Examen.docx deberá ser modificado siguiendo lo siguiente:
+
+- Tipo de letra: Arial
+- Tamaño 12 pt normal, 14 puntos y en negrita secciones, 12 pt y en negrita subsecciones
+- Interlineado: 1.5
+- Márgenes: Superior 2.5 cm, inferior 2.5 cm, izquierdo 3 cm, derecho 2.5 cm
+- Añadir citas textuales (menos de 40 palabras y más de 40 palabras) de lo que tenga el texto.
+- Actualizar la carátula con sus datos, logo de la universidad, nombres, facultad, etc. 
+- Borrar: Tutelado
+- Agregar índice general, índice de tablas, índice de figuras
+- Carátula sin numeración
+- Indices, resumen con numeración en romano minúscula en el pie de página
+- Añadir estilos y secciones.
+- Mejorar la tabla y las figuras, de acuerdo a las normas APA
+- Añadir 2 referencias a la base de datos.
+
+Enviar el trabajo al correo rhoces@unjfsc.edu.pe
+
+Asunto: EP1-(APELLIDOS)
+Cuerpo: Buenos días profesor, soy el estudiante (Apellidos y nombres), de la facultad de (añadir), escuela profesional de (añadir), ciclo (añadir), de la asignatura (añadir). 
+Adjunto el trabajo solicitado.
+Quedo atento a sus comentarios.
+Saludos
+
+ 
