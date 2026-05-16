@@ -1,0 +1,31 @@
+# UTF-8
+#
+# Metadata properties for NEX-PULSE-Agent.exe
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'Cristian Lucas'),
+        StringStruct(u'FileDescription', u'NEX-PULSE Agent - Optimizador Multi-Agente con IA y Zero-Trust'),
+        StringStruct(u'FileVersion', u'1.0.0'),
+        StringStruct(u'InternalName', u'NexpulseAgent'),
+        StringStruct(u'LegalCopyright', u'Copyright (c) 2026 Cristian Lucas. All rights reserved.'),
+        StringStruct(u'OriginalFilename', u'NEX-PULSE-Agent.exe'),
+        StringStruct(u'ProductName', u'NEX-PULSE Agent'),
+        StringStruct(u'ProductVersion', u'1.0.0')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)

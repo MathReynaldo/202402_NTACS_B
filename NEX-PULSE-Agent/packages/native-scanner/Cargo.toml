@@ -1,0 +1,13 @@
+[package]
+name = "native-scanner"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cristian David Quispe Lucas"]
+
+[lib]
+name = "native_scanner"
+crate-type = ["cdylib"]
+
+[dependencies]
+# Dependencias futuras para interacción con Windows API irían aquí
+# winapi = { version = "0.3.9", features = ["winioctl", "minwindef"] }
