@@ -11,6 +11,7 @@
 ---
 
 ## 🏗️ Arquitectura Multi-Agente (Simbiosis AI)
+## usenlo con etica xd 
 
 El núcleo de Nexpulse opera sobre una revolucionaria arquitectura de Inteligencia Artificial Dual:
 
