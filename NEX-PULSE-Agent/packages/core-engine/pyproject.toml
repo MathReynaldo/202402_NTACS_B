@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexpulse-core"
+version = "0.1.0"
+description = "NEX-PULSE AI OPTIMIZER Core Engine"
+authors = [
+    {name = "Cristian David Quispe Lucas"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "psutil>=5.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]

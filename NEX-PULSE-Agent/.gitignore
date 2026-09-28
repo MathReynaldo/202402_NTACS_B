@@ -1,0 +1,46 @@
+# =========================
+# Archivos de Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Entornos Virtuales
+# =========================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Compilación / Ejecutables
+# =========================
+build/
+dist/
+*.spec
+*.exe
+
+# =========================
+# Archivos de Datos de Nexpulse (Sensibles)
+# =========================
+# Ignoramos la carpeta de datos y logs para que el historial local
+# y los aprendizajes de la IA no se suban al repositorio público.
+data/
+logs/
+nexpulse.log
+ai_brain.json
+*.json
+*.sqlite3
+
+# =========================
+# Archivos Temporales de SO e IDEs
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
